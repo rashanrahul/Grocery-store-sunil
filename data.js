@@ -186,7 +186,7 @@ const DB = {
 
   async syncToServer(name, value) {
     if (typeof fetch !== 'function') return;
-    const response = awaitfetch(`/api/store?key=${encodeURIComponent(name)}`, {
+    const response = await fetch(`/api/store?key=${encodeURIComponent(name)}`, {
   method: 'POST',
   headers: {
     'Content-Type': 'application/json'
