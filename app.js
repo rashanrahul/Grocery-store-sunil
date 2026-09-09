@@ -449,7 +449,7 @@ function openOrderModal() {
   openModal('orderModal');
 }
 
-function submitOrder() {
+async function submitOrder() {
   const name    = document.getElementById('custName').value.trim();
   const phone   = document.getElementById('custPhone').value.trim();
   const address = document.getElementById('custAddress').value.trim();
@@ -479,7 +479,13 @@ function submitOrder() {
 
   const orders = DB.getOrders();
   orders.unshift(order);
-  DB.saveOrders(orders);
+  try {
+    await DB.saveOrders(orders);
+  } catch (error) {
+    showToast('Order could not be saved. Please try again.', true);
+    console.error('Order save failed:', error);
+    return;
+  }
 
   // deduct stock
   const updatedProds = DB.getProducts();
@@ -487,9 +493,9 @@ function submitOrder() {
     const idx = updatedProds.findIndex(p => p.id === item.id);
     if (idx >= 0) updatedProds[idx].stock = Math.max(0, updatedProds[idx].stock - item.qty);
   });
-  DB.saveProducts(updatedProds);
+  await DB.saveProducts(updatedProds);
 
-  DB.saveCart([]);
+  await DB.saveCart([]);
   updateCartCount();
   renderProducts();
 
