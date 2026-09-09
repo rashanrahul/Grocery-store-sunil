@@ -167,8 +167,11 @@ const DB = {
     try {
       const names = ['categories', 'products', 'orders', 'cart', 'settings'];
       const results = await Promise.all(names.map(async (name) => {
-        const response = await fetch(`/api/store?key=${encodeURIComponent(name)}`, { credentials: 'same-origin' });
-        if (!response.ok) return null;
+        const response = await fetch(`/api/store?key=${encodeURIComponent(name)}`, {
+          credentials: 'same-origin',
+          cache: 'no-store',
+        });
+        if (!response.ok) throw new Error(`Store API returned ${response.status}`);
         const data = await response.json();
         return { name, value: data.value };
       }));
@@ -183,16 +186,26 @@ const DB = {
 
   async syncToServer(name, value) {
     if (typeof fetch !== 'function') return;
-    try {
-      await fetch('/api/store', {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
-        credentials: 'same-origin',
-        body: JSON.stringify({ key: name, value })
-      });
-    } catch (error) {
-      console.warn('Server sync skipped:', error.message || error);
-    }
+    const response = await fetch('/api/store', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      credentials: 'same-origin',
+      body: JSON.stringify({ key: name, value })
+    });
+    if (!response.ok) throw new Error(`Store API returned ${response.status}`);
+    return response.json();
+  },
+
+  async refreshFromServer(name) {
+    if (typeof fetch !== 'function') return false;
+    const response = await fetch(`/api/store?key=${encodeURIComponent(name)}`, {
+      credentials: 'same-origin',
+      cache: 'no-store',
+    });
+    if (!response.ok) throw new Error(`Store API returned ${response.status}`);
+    const data = await response.json();
+    if (data.value !== undefined && data.value !== null) this.set(this.keyFor(name), data.value);
+    return true;
   },
 
   // ── public API ─────────────────────────────────────────────────────────────
@@ -201,11 +214,11 @@ const DB = {
   getOrders()      { return this.get("ss_orders",     []);                     },
   getCart()        { return this.get("ss_cart",       []);                     },
 
-  saveCategories(d) { this.set("ss_categories", d); this.syncToServer('categories', d); },
-  saveProducts(d)   { this.set("ss_products",   d); this.syncToServer('products', d); },
-  saveOrders(d)     { this.set("ss_orders",     d); this.syncToServer('orders', d); },
-  saveCart(d)       { this.set("ss_cart",       d); this.syncToServer('cart', d); },
-  saveSettings(d)   { this.set('ss_settings', d); this.syncToServer('settings', d); },
+  saveCategories(d) { this.set("ss_categories", d); return this.syncToServer('categories', d); },
+  saveProducts(d)   { this.set("ss_products",   d); return this.syncToServer('products', d); },
+  saveOrders(d)     { this.set("ss_orders",     d); return this.syncToServer('orders', d); },
+  saveCart(d)       { this.set("ss_cart",       d); return this.syncToServer('cart', d); },
+  saveSettings(d)   { this.set('ss_settings', d); return this.syncToServer('settings', d); },
 
   nextOrderId() {
     const orders = this.getOrders();
