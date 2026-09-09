@@ -431,6 +431,16 @@ function showToast(msg, error=false) {
 function initAdmin() {
   renderDashboard();
   updatePendingBadge();
+  setInterval(async () => {
+    try {
+      await DB.refreshFromServer('orders');
+      if (currentTab === 'dashboard') renderDashboard();
+      if (currentTab === 'orders') renderOrdersTable();
+      updatePendingBadge();
+    } catch (error) {
+      console.warn('Order refresh failed:', error.message || error);
+    }
+  }, 15000);
 }
 
 // Auto-login if session active
