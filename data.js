@@ -5,7 +5,7 @@ const DB = {
   defaultCategories: [
     { id: 1,  name: "Rice & Grains",           nameSi: "සහල් සහ ධාන්‍ය වර්ග",        icon: "🌾" },
     { id: 2,  name: "Dhal & Pulses",           nameSi: "පරිප්පු සහ රනිල කුලය",       icon: "🫘" },
-    { id: 3,  name: "Spices",                  nameSi: "කුළු බඩු",                    icon: "🌶️" },
+    { id: 3,  name: "Spices",                  nameSi: "කුළු බඩු",                    icon: "🌶️" }, 
     { id: 5,  name: "Dairy & Eggs",            nameSi: "කිරි සහ බිත්තර",             icon: "🥛" },
     { id: 6,  name: "Beverages",               nameSi: "පාන වර්ග",                    icon: "🧃" },
     { id: 7,  name: "Biscuits & Snacks",       nameSi: "බිස්කට් සහ කෙටි ආහාර",       icon: "🍪" },
