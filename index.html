@@ -483,5 +483,10 @@
 
 <script src="data.js"></script>
 <script src="app.js"></script>
+<script>
+  if ('serviceWorker' in navigator && (window.location.protocol === 'https:' || window.location.hostname === 'localhost')) {
+    window.addEventListener('load', () => navigator.serviceWorker.register('/sw.js'));
+  }
+</script>
 </body>
 </html>
