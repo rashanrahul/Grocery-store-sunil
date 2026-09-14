@@ -190,4 +190,8 @@ tr:last-child td { border-bottom: none; }
   .modal { max-height: 95vh; }
   .modal-body { padding: 1rem; }
   .modal-footer { padding: .8rem 1rem; }
+  input, select, textarea { min-height: 44px; font-size: 16px; }
+  .btn { min-height: 44px; justify-content: center; }
+  .qty-btn { width: 34px; height: 34px; }
+  .qty-input { min-height: 34px; font-size: 16px; }
 }
