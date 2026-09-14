@@ -295,12 +295,46 @@
       .hero { flex-direction: column; text-align: center; gap: 1rem; }
       .hero-emoji { font-size: 3rem; }
       .hero-text h2 { font-size: 1.2rem; }
-      .header-top { padding: .6rem .8rem; }
-      .search-bar { min-width: 0; }
+      .info-bar { justify-content: flex-start; gap: .35rem .8rem; padding: .45rem .8rem; font-size: .7rem; }
+      .info-pill:nth-child(3) { display: none; }
+      .header-top { display: grid; grid-template-columns: 1fr auto; padding: .7rem .8rem .8rem; gap: .7rem; }
+      .logo { min-width: 0; }
+      .logo-icon { font-size: 1.8rem; }
+      .logo-text h1 { font-size: 1.1rem; }
+      .header-actions { display: grid; grid-template-columns: auto 1fr auto; gap: .5rem; width: 100%; grid-column: 1 / -1; }
+      .search-bar { min-width: 0; max-width: none; grid-column: 1 / -1; width: 100%; padding: .55rem .55rem .55rem .9rem; }
+      .search-bar input { font-size: .9rem; }
+      .lang-toggle { justify-self: start; align-self: center; }
+      .lang-toggle button { min-height: 36px; padding: .35rem .7rem; }
+      .cart-btn { min-height: 40px; justify-content: center; padding: .5rem .8rem; }
+      .track-btn { min-width: 42px; width: 42px; padding: .5rem; overflow: hidden; white-space: nowrap; }
+      #trackNavLabel { font-size: 0; }
+      #trackNavLabel::before { content: '📦'; font-size: 1rem; }
+      .cat-nav { gap: .4rem; padding: .55rem .8rem .7rem; }
+      .cat-pill { min-height: 38px; padding: .4rem .8rem; }
       .logo-text p { display: none; }
-      main { padding: .8rem; }
-      .products-grid { grid-template-columns: repeat(2, 1fr); gap: .8rem; }
-      .product-img, .product-img-placeholder { height: 130px; }
+      main { padding: 1rem .8rem 1.5rem; }
+      .hero { margin-bottom: 1.4rem; padding: 1.25rem 1rem; border-radius: 12px; }
+      .hero-text p { font-size: .82rem; margin: .45rem 0 .8rem; }
+      .hero .btn { min-height: 42px; }
+      .products-header { align-items: baseline; margin-bottom: .8rem; }
+      .section-title { font-size: 1.1rem; }
+      .section-title span { font-size: 1.25rem; }
+      .products-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: .65rem; }
+      .product-card { border-width: 1px; border-radius: 10px; }
+      .product-card:hover { transform: none; }
+      .product-img, .product-img-placeholder { height: 112px; }
+      .product-body { padding: .65rem; }
+      .product-name { font-size: .82rem; line-height: 1.25; min-height: 2.05em; }
+      .product-name-si { font-size: .7rem; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+      .product-meta { margin-bottom: .55rem; align-items: flex-end; }
+      .product-price { font-size: .9rem; }
+      .product-unit { font-size: .68rem; }
+      .stock-badge { top: .4rem; right: .4rem; }
+      .stock-badge .badge { font-size: .62rem; padding: .15rem .4rem; }
+      .add-btn { min-height: 40px; padding: .45rem .25rem; font-size: .73rem; }
+      #trackSection { margin-top: 1.8rem !important; }
+      .track-box { padding: 1rem; }
       .cart-sidebar { width: 100vw; }
     }
   </style>
@@ -322,8 +356,8 @@
     </a>
     <div class="header-actions">
       <div class="search-bar">
-        <input type="text" id="searchInput" placeholder="Search products…" />
-        <button onclick="clearSearch()">✕</button>
+        <input type="search" id="searchInput" placeholder="Search products…" aria-label="Search products" />
+        <button type="button" onclick="clearSearch()" aria-label="Clear search">✕</button>
       </div>
       <div class="lang-toggle">
         <button id="btnEn" class="active" onclick="setLang('en')">EN</button>
@@ -333,7 +367,7 @@
         🛒 <span id="cartLabel">Cart</span>
         <span class="cart-count" id="cartCount">0</span>
       </button>
-      <button class="cart-btn" style="background:var(--green2);" onclick="scrollToTrack()" id="trackNavLabel">
+      <button class="cart-btn track-btn" style="background:var(--green2);" onclick="scrollToTrack()" id="trackNavLabel">
         📦 Track Order
       </button>
     </div>
