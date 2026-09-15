@@ -428,12 +428,31 @@ function showToast(msg, error=false) {
 }
 
 // ── Init ─────────────────────────────────────────────────────────────────────
-function initAdmin() {
+async function removeOrdersOlderThanTwoDays() {
+  const cutoff = Date.now() - (2 * 24 * 60 * 60 * 1000);
+  const orders = DB.getOrders();
+  const activeOrders = orders.filter(order => {
+    const createdAt = Date.parse(order.createdAt);
+    return !Number.isFinite(createdAt) || createdAt >= cutoff;
+  });
+
+  if (activeOrders.length !== orders.length) {
+    await DB.saveOrders(activeOrders);
+  }
+}
+
+async function initAdmin() {
+  try {
+    await removeOrdersOlderThanTwoDays();
+  } catch (error) {
+    console.warn('Old order cleanup failed:', error.message || error);
+  }
   renderDashboard();
   updatePendingBadge();
   setInterval(async () => {
     try {
       await DB.refreshFromServer('orders');
+      await removeOrdersOlderThanTwoDays();
       if (currentTab === 'dashboard') renderDashboard();
       if (currentTab === 'orders') renderOrdersTable();
       updatePendingBadge();
