@@ -279,6 +279,7 @@ function renderOrdersTable() {
           ${o.status!=='Cancelled'&&o.status!=='Completed'
             ? `<button class="btn btn-danger btn-sm" onclick="setOrderStatus('${o.id}','Cancelled')">✕</button>`
             : ''}
+          <button class="btn btn-danger btn-sm" onclick="confirmDelete('order','${o.id}')">🗑️</button>
         </td>
       </tr>`).join('')
     : '<tr><td colspan="7" class="text-center" style="color:var(--muted);padding:2rem;">No orders found.</td></tr>';
@@ -334,6 +335,7 @@ function openOrderDetail(id) {
         <button class="btn btn-sm ${o.status===s?'btn-primary':'btn-outline'}" onclick="setOrderStatus('${o.id}','${s}');closeModal('orderDetailModal');">${s}</button>
       `).join('')}
       <button class="btn btn-danger btn-sm" onclick="setOrderStatus('${o.id}','Cancelled');closeModal('orderDetailModal');">Cancelled</button>
+      <button class="btn btn-danger btn-sm" onclick="closeModal('orderDetailModal');confirmDelete('order','${o.id}');">🗑️ Delete</button>
     </div>`;
   openModal('orderDetailModal');
 }
@@ -395,6 +397,12 @@ function confirmDelete(type, id) {
     if (type==='product') {
       DB.saveProducts(DB.getProducts().filter(p=>p.id!==id));
       renderProductsTable(); showToast('Product deleted.');
+    } else if (type==='order') {
+      DB.saveOrders(DB.getOrders().filter(o=>o.id!==id));
+      renderOrdersTable();
+      renderDashboard();
+      updatePendingBadge();
+      showToast('Order deleted.');
     } else {
       DB.saveCategories(DB.getCategories().filter(c=>c.id!==id));
       renderCatsTable(); showToast('Category deleted.');
