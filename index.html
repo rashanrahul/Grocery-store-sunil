@@ -379,6 +379,69 @@
       main { padding-inline: 1rem; }
       .products-grid { grid-template-columns: repeat(auto-fill, minmax(180px, 1fr)); }
     }
+
+    /* ── Customer dashboard refresh ── */
+    .hero {
+      min-height: 350px; padding: 3.2rem 3.5rem; border: 0;
+      border-radius: 26px; background: #f2f7d9;
+      box-shadow: 0 18px 45px rgba(32, 71, 37, .12);
+    }
+    .hero::after {
+      content: ''; position: absolute; inset: auto 0 0 0; height: 42%;
+      background: linear-gradient(180deg, transparent, rgba(255,255,255,.34));
+      pointer-events: none;
+    }
+    .hero-text { position: relative; z-index: 2; max-width: 540px; }
+    .hero-kicker { display: inline-block; margin-bottom: 1rem; color: var(--coral); font-size: .72rem; font-weight: 800; letter-spacing: .14em; }
+    .hero-text h2 { max-width: 530px; font-size: clamp(2.1rem, 4vw, 4.1rem); color: var(--ink-deep); letter-spacing: -.03em; }
+    .hero-text p { max-width: 430px; margin: 1rem 0 1.4rem; color: #58705b; font-size: 1rem; }
+    .hero-actions { display: flex; align-items: center; gap: 1.1rem; flex-wrap: wrap; }
+    .hero-actions .btn { background: var(--coral); box-shadow: 0 8px 18px rgba(239,111,78,.25); }
+    .hero-actions .btn:hover { background: #d95d3e; }
+    .hero-link { border: 0; background: transparent; color: var(--ink-deep); font: 700 .88rem inherit; cursor: pointer; padding: .5rem 0; }
+    .hero-link span { display: inline-block; margin-left: .25rem; color: var(--coral); font-size: 1.15rem; transition: transform .2s; }
+    .hero-link:hover span { transform: translate(3px,-2px); }
+    .hero-visual { position: absolute; right: 3.5%; top: 7%; width: 43%; height: 88%; z-index: 1; }
+    .hero-orbit { position: absolute; border: 1px solid rgba(46,125,50,.15); border-radius: 50%; }
+    .hero-orbit-one { width: 330px; height: 330px; right: 5%; top: 0; }
+    .hero-orbit-two { width: 245px; height: 245px; right: 19%; top: 12%; background: rgba(255,255,255,.22); }
+    .hero-produce { position: absolute; overflow: hidden; border: 8px solid rgba(255,255,255,.82); box-shadow: 0 18px 35px rgba(28,65,31,.2); }
+    .hero-produce img { width: 100%; height: 100%; object-fit: cover; display: block; }
+    .hero-produce-one { width: 190px; height: 220px; right: 10%; top: 5%; transform: rotate(8deg); border-radius: 48% 48% 18% 18%; }
+    .hero-produce-two { width: 145px; height: 165px; left: 4%; bottom: 3%; transform: rotate(-12deg); border-radius: 18% 48% 48% 48%; }
+    .hero-emoji { position: absolute; right: 31%; bottom: 8%; z-index: 2; font-size: 4rem; filter: drop-shadow(0 8px 10px rgba(0,0,0,.18)); }
+    .service-strip { display: grid; grid-template-columns: repeat(3, 1fr); gap: .8rem; margin: -1rem 1.4rem 2.6rem; position: relative; z-index: 3; }
+    .service-item { display: flex; align-items: center; gap: .8rem; padding: 1rem 1.15rem; border: 1px solid rgba(46,125,50,.12); border-radius: 14px; background: rgba(255,255,255,.92); box-shadow: 0 10px 25px rgba(32,71,37,.08); }
+    .service-icon { display: grid; place-items: center; flex: 0 0 34px; width: 34px; height: 34px; border-radius: 50%; background: var(--lime); color: var(--green); font-size: 1.15rem; }
+    .service-item strong, .service-item small { display: block; }
+    .service-item strong { color: var(--ink-deep); font-size: .82rem; }
+    .service-item small { margin-top: .15rem; color: var(--muted); font-size: .68rem; }
+    .products-header { margin-bottom: 1.2rem; }
+    .section-title { color: var(--ink-deep); font-size: 1.55rem; }
+    .section-title span:first-child { display: none; }
+    .products-grid { gap: 1rem; }
+    .product-card { border: 1px solid rgba(46,125,50,.1); border-radius: 16px; box-shadow: 0 8px 22px rgba(32,71,37,.08); }
+    .product-card:hover { border-color: var(--green3); box-shadow: 0 14px 28px rgba(46,125,50,.16); }
+    .product-img, .product-img-placeholder { height: 180px; }
+    .product-body { padding: 1rem; }
+    .product-name { color: var(--ink-deep); }
+    .add-btn { border-radius: 10px; background: var(--ink-deep); }
+    .add-btn:hover { background: var(--green); }
+    #trackSection { margin-top: 3.8rem !important; }
+    .track-box { border: 1px solid rgba(46,125,50,.12); box-shadow: 0 12px 28px rgba(32,71,37,.07); }
+    @media (max-width: 700px) {
+      .hero { min-height: 470px; padding: 2rem 1.3rem; align-items: flex-start; }
+      .hero-text h2 { font-size: 2.2rem; }
+      .hero-visual { right: 0; top: auto; bottom: .5rem; width: 100%; height: 205px; }
+      .hero-orbit-one { width: 225px; height: 225px; right: 9%; }
+      .hero-orbit-two { width: 175px; height: 175px; right: 22%; }
+      .hero-produce-one { width: 130px; height: 150px; right: 14%; }
+      .hero-produce-two { width: 100px; height: 115px; left: 16%; }
+      .hero-emoji { right: 39%; bottom: 2%; font-size: 2.8rem; }
+      .service-strip { grid-template-columns: 1fr; margin: -1rem 0 2rem; gap: .55rem; }
+      .service-item { padding: .75rem .9rem; }
+      .service-item small { font-size: .65rem; }
+    }
   </style>
 </head>
 <body>
@@ -422,11 +485,27 @@
   <!-- Hero -->
   <div class="hero fade-in">
     <div class="hero-text">
+      <span class="hero-kicker">YOUR LOCAL PANTRY, ONLINE</span>
       <h2 id="heroTitle">Fresh & Organic Groceries 🌿</h2>
       <p id="heroSub">Order online, pick up or get delivered to your door.</p>
-      <button class="btn btn-primary" onclick="scrollToProducts()">🛍️ <span id="shopNowBtn">Shop Now</span></button>
+      <div class="hero-actions">
+        <button class="btn btn-primary" onclick="scrollToProducts()">🛍️ <span id="shopNowBtn">Shop Now</span></button>
+        <button class="hero-link" onclick="scrollToTrack()">Track an order <span>↗</span></button>
+      </div>
     </div>
-    <div class="hero-emoji">🥦🍅🥛</div>
+    <div class="hero-visual" aria-hidden="true">
+      <div class="hero-orbit hero-orbit-one"></div>
+      <div class="hero-orbit hero-orbit-two"></div>
+      <div class="hero-produce hero-produce-one"><img src="https://images.unsplash.com/photo-1542838132-92c53300491e?w=500&q=85" alt="Fresh vegetables" /></div>
+      <div class="hero-produce hero-produce-two"><img src="https://images.unsplash.com/photo-1579113800032-c38bd7635818?w=500&q=85" alt="Fresh groceries" /></div>
+      <div class="hero-emoji">🥦</div>
+    </div>
+  </div>
+
+  <div class="service-strip" aria-label="Store benefits">
+    <div class="service-item"><span class="service-icon">✦</span><span><strong>Picked fresh</strong><small>Quality you can taste</small></span></div>
+    <div class="service-item"><span class="service-icon">⌁</span><span><strong>Easy ordering</strong><small>Simple from cart to door</small></span></div>
+    <div class="service-item"><span class="service-icon">♡</span><span><strong>Local care</strong><small>Your neighbourhood store</small></span></div>
   </div>
 
   <!-- Products section -->
