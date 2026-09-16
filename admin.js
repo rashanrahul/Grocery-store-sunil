@@ -101,8 +101,9 @@ function renderDashboard() {
         <td>Rs. ${o.total.toFixed(2)}</td>
         <td><span class="badge ${STATUS_BADGE[o.status]||'badge-grey'}">${o.status}</span></td>
         <td>${fmtDate(o.createdAt)}</td>
+        <td><button class="btn btn-danger btn-sm" onclick="confirmDelete('order','${o.id}')">🗑️</button></td>
       </tr>`).join('')
-    : '<tr><td colspan="5" class="text-center" style="color:var(--muted);padding:2rem;">No orders yet.</td></tr>';
+    : '<tr><td colspan="6" class="text-center" style="color:var(--muted);padding:2rem;">No orders yet.</td></tr>';
 }
 
 // ── Products ──────────────────────────────────────────────────────────────────
