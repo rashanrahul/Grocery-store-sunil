@@ -187,13 +187,13 @@ const DB = {
   async syncToServer(name, value) {
     if (typeof fetch !== 'function') return;
     const response = await fetch(`/api/store?key=${encodeURIComponent(name)}`, {
-  method: 'POST',
-  headers: {
-    'Content-Type': 'application/json'
-  },
-  credentials: 'same-origin',
-  body: JSON.stringify({ value })
-});
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json'
+      },
+      credentials: 'same-origin',
+      body: JSON.stringify({ key: name, value })
+    });
     if (!response.ok) throw new Error(`Store API returned ${response.status}`);
     return response.json();
   },
