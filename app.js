@@ -140,7 +140,7 @@ function applyLang() {
 
 // ── Categories ────────────────────────────────────────────────────────────────
 function renderCategories() {
-  const cats = DB.getCategories();
+  const cats = [...DB.getCategories()].sort((a, b) => a.name.localeCompare(b.name, undefined, { sensitivity: 'base' }));
   const nav  = document.getElementById('catNav');
   nav.innerHTML = `<button class="cat-pill ${activeCat===0?'active':''}" onclick="filterCat(0)">
     🛒 ${t('allCat')}
@@ -158,7 +158,7 @@ function filterCat(id) {
 
 // ── Products ──────────────────────────────────────────────────────────────────
 function getFilteredProducts() {
-  let prods = DB.getProducts();
+  let prods = [...DB.getProducts()].sort((a, b) => a.name.localeCompare(b.name, undefined, { sensitivity: 'base' }));
   if (activeCat) prods = prods.filter(p => p.categoryId === activeCat);
   if (searchQ)   prods = prods.filter(p =>
     p.name.toLowerCase().includes(searchQ) ||

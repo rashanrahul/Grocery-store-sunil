@@ -108,7 +108,7 @@ function renderDashboard() {
 
 // ── Products ──────────────────────────────────────────────────────────────────
 function renderProductsTable() {
-  const prods = DB.getProducts();
+  const prods = [...DB.getProducts()].sort((a, b) => a.name.localeCompare(b.name, undefined, { sensitivity: 'base' }));
   const cats  = DB.getCategories();
   document.getElementById('productsTableBody').innerHTML = prods.length
     ? prods.map(p => {
@@ -136,7 +136,7 @@ function renderProductsTable() {
 }
 
 function openProductModal(id=null) {
-  const cats = DB.getCategories();
+  const cats = [...DB.getCategories()].sort((a, b) => a.name.localeCompare(b.name, undefined, { sensitivity: 'base' }));
   document.getElementById('pCategory').innerHTML = cats.map(c=>`<option value="${c.id}">${c.icon} ${c.name}</option>`).join('');
   if (id) {
     const p = DB.getProducts().find(x=>x.id===id);
@@ -200,7 +200,7 @@ function updateStock(id, val) {
 
 // ── Categories ────────────────────────────────────────────────────────────────
 function renderCatsTable() {
-  const cats  = DB.getCategories();
+  const cats  = [...DB.getCategories()].sort((a, b) => a.name.localeCompare(b.name, undefined, { sensitivity: 'base' }));
   const prods = DB.getProducts();
   document.getElementById('catsTableBody').innerHTML = cats.length
     ? cats.map(c=>`<tr>
