@@ -599,7 +599,7 @@ document.querySelector('.logo').addEventListener('click', e => {
   }
 });
 
-// ── Live sync from admin (cross-tab) ─────────────────────────────────────────
+// ── Live sync from admin (cross-tab) ────────────────────────────────────────
 window.addEventListener('storage', e => {
   if (e.key === 'ss_products')   { renderProducts(); renderCart(); }
   if (e.key === 'ss_categories') { renderCategories(); renderProducts(); }
