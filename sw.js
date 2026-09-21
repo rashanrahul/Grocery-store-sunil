@@ -64,7 +64,7 @@ async function cacheFirst(request) {
   if (cachedResponse) {
     return cachedResponse;
   }
-
+  
   const response = await fetch(request);
   if (response.ok) {
     const cache = await caches.open(CACHE_NAME);
