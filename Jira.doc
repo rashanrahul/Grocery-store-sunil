@@ -1,0 +1,2773 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Jira</title>
+    <meta http-equiv="Content-Type" Content="application/vnd.ms-word; charset=UTF-8">
+        <style type="text/css">
+
+.tableBorder, .grid
+{
+    background-color: #fff;
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.tableBorder td, .grid td
+{
+    vertical-align: top;
+    padding: 2px;
+    border: 1px solid #ccc;
+}
+
+.noPadding
+{
+    padding: 0 !important;
+}
+
+h3 .subText
+{
+    font-size: 60%;
+    font-weight: normal;
+}
+
+.tabLabel
+{
+    font-weight: bold;
+    border: 1px solid #ccc;
+    border-bottom:none;
+    padding: 2px;
+    display: inline;
+}
+
+td.blank
+{
+    padding: 0;
+    margin: 0;
+}
+
+.blank td
+{
+    border: none;
+}
+
+#descriptionArea
+{
+    margin: 0;
+    padding: 2px;
+    border: 1px solid #ccc;
+}
+
+hr
+{
+    border-top:1px solid #aaa;
+}
+
+hr.fullcontent
+{
+  height: 15px;
+  padding: 10px 0;
+  background: #fff url('https://rashanrahul2000-1788285295297.atlassian.net/images/icons/hr.gif') no-repeat scroll center;
+}
+
+</style>
+
+</head>
+<body>
+
+<table class="tableBorder" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" width="100%" colspan="2" valign="top">
+                            <h3 class="formtitle">
+                        [SSQA-1]&nbsp;<a href="https://rashanrahul2000-1788285295297.atlassian.net/browse/SSQA-1">Sunil Store Grocery – Full Requirement Specification</a>
+            <span class="subText">
+               Created: 17/Sep/26                   &nbsp;Updated: 17/Sep/26
+
+                                            </span>
+            </h3>
+        </td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Status:</b></td>
+        <td width="80%">To Do</td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Project:</b></td>
+        <td width="80%"><a href="https://rashanrahul2000-1788285295297.atlassian.net/secure/BrowseProject.jspa?id=10035">Sunil Store Grocery QA</a></td>
+    </tr>
+
+        <tr>
+            <td><b>Components:</b></td>
+            <td>
+                            None
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Affects versions:</b></td>
+            <td>
+                            None
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Fix versions:</b></td>
+            <td>
+                            None
+                </td>
+    </tr>
+    
+    
+    </table>
+
+<br />
+<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" valign="top" width="20%">
+            <b>Type:</b>
+        </td>
+        <td bgcolor="#ffffff" valign="top"  width="30%" >
+            Story
+        </td>
+
+                    <td bgcolor="#f0f0f0">
+                <b>Priority:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap>
+                Medium
+            </td>
+            </tr>
+    <tr>
+                        <td bgcolor="#f0f0f0" valign="top" width="20%">
+                <b>Reporter:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top"  width="30%" >
+                                        
+                
+        
+            <a class="user-hover" rel="712020:21ef7c12-2367-4bf8-bda1-9c697939bb8e"
+                id="word_reporter_712020:21ef7c12-2367-4bf8-bda1-9c697939bb8e"
+                href="https://rashanrahul2000-1788285295297.atlassian.net/secure/ViewProfile.jspa?accountId=712020%3A21ef7c12-2367-4bf8-bda1-9c697939bb8e">
+                    rashan rahul
+                </a>
+
+                            </td>
+        
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Assignee:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap  width="30%" >
+                                    Unassigned
+                            </td>
+            </tr>
+    	<tr>
+		<td bgcolor="#f0f0f0" width="20%">
+			<b>Resolution:</b>
+		</td>
+		<td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+            				Unresolved
+                    </td>
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Votes:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+                0
+            </td>
+        
+    </tr>
+    
+        <tr>
+        <td bgcolor="#f0f0f0" width="20%">
+            <b>Labels:</b>
+        </td>
+        <td id="labels-10061-value" class="value" bgcolor="#ffffff" valign="top" colspan="3" nowrap>
+                            None
+                    </td>
+    </tr>
+    
+    	<tr>
+        		<td bgcolor="#f0f0f0" width="20%"><b>Remaining Estimate:</b></td>
+        <td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Not Specified
+            		</td>
+    </tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Time Spent:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Not Specified
+            		</td>
+	</tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Original estimate:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Not Specified
+            		</td>
+    </tr>
+    
+    </table>
+
+
+
+    <br />
+
+    	<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+            
+
+        
+    
+
+
+    
+                        <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>Rank:</b></td>
+                <td id="customfield_10019-10061-value" class="value" bgcolor="#ffffff" width="80%">      0|i0005z:
+  </td>
+            </tr>
+            </table>
+
+    <br/>
+
+    <table cellpadding="2" cellspacing="0" border="0" width="100%" align="center">
+    <tr>
+        <td bgcolor="#bbbbbb" width="1%" nowrap align="center">
+            &nbsp;<font color="#ffffff"><b>Description</b></font>&nbsp;
+        </td>
+        <td>&nbsp;</td>
+    </tr>
+    </table>
+
+    <table cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td id="descriptionArea">
+            <h3><a name="1.ProjectObjective"></a>1. Project Objective</h3>
+
+<p><b>Sunil Store Grocery</b> is a mobile-friendly grocery ordering web application that allows customers to browse grocery products, search products by name or category, add products to a shopping cart, provide customer details, and place an order online.</p>
+
+<p>After placing an order, the system generates a unique <b>Order ID</b>. The customer contacts the store by phone, and the store confirms the order before processing it.</p>
+
+<p>The application will also provide an <b>Admin Panel</b> where authorized store staff can view and manage customer orders and product information.</p>
+
+<hr />
+
+<h1><a name="2.MainCustomerRequirement"></a>2. Main Customer Requirement</h1>
+
+<h3><a name="CustomerUserStory"></a>Customer User Story</h3>
+
+<p><b>As a customer, I want to browse grocery products, add products to my cart, provide my details, and place an order so that I can conveniently order groceries from Sunil Store.</b></p>
+
+<h3><a name="AcceptanceCriteria"></a>Acceptance Criteria</h3>
+
+<ul>
+	<li>Customer can access the Home page.</li>
+	<li>Customer can view available products.</li>
+	<li>Customer can search for products.</li>
+	<li>Customer can browse products by category.</li>
+	<li>Customer can view product details.</li>
+	<li>Customer can add products to the cart.</li>
+	<li>Customer can update product quantity.</li>
+	<li>Customer can remove products from the cart.</li>
+	<li>Customer can view the total order amount.</li>
+	<li>Customer can enter required customer details.</li>
+	<li>Customer can place an order.</li>
+	<li>System generates a unique Order ID.</li>
+	<li>Customer can see the Order ID after successful order placement.</li>
+	<li>Customer can contact the store using the provided phone option.</li>
+	<li>Store can confirm the order.</li>
+	<li>Confirmed orders can be moved to <b>Processing</b> status.</li>
+</ul>
+
+
+<hr />
+
+<h1><a name="3.CustomerJourney"></a>3. Customer Journey</h1>
+
+<div class="preformatted panel" style="border-width: 1px;"><div class="preformattedContent panelContent">
+<pre>HOME
+  ↓
+VIEW PRODUCTS
+  ↓
+SEARCH / CATEGORY
+  ↓
+PRODUCT DETAILS
+  ↓
+ADD TO CART
+  ↓
+CART
+  ↓
+CUSTOMER DETAILS
+  ↓
+PLACE ORDER
+  ↓
+ORDER ID CREATED
+  ↓
+📞 CALL STORE
+  ↓
+STORE CONFIRMS
+  ↓
+ORDER PROCESSING</pre>
+</div></div>
+
+<hr />
+
+<h1><a name="4.FunctionalRequirements"></a>4. Functional Requirements</h1>
+
+<h2><a name="FR01%E2%80%93HomePage"></a>FR-01 – Home Page</h2>
+
+<p>The system shall provide a Home page where customers can access the main grocery shopping features.</p>
+
+<h3><a name="Homepageshouldcontain%3A"></a>Home page should contain:</h3>
+
+<ul>
+	<li>Store logo/name</li>
+	<li>Navigation menu</li>
+	<li>Product categories</li>
+	<li>Available products</li>
+	<li>Search option</li>
+	<li>Cart option</li>
+	<li>Contact Store option</li>
+</ul>
+
+
+<h3><a name="AcceptanceCriteria"></a>Acceptance Criteria</h3>
+
+<p><b>Given</b> the customer opens Sunil Store<br/>
+<b>When</b> the Home page loads<br/>
+<b>Then</b> the system should display the available shopping options correctly.</p>
+
+<hr />
+
+<h1><a name="5.ProductManagement%E2%80%93CustomerSide"></a>5. Product Management – Customer Side</h1>
+
+<h2><a name="FR02%E2%80%93ViewProducts"></a>FR-02 – View Products</h2>
+
+<p>Customer should be able to view available grocery products.</p>
+
+<p>Each product should display:</p>
+
+<ul>
+	<li>Product image</li>
+	<li>Product name</li>
+	<li>Price</li>
+	<li>Category</li>
+	<li>Availability</li>
+	<li>Add to Cart option</li>
+</ul>
+
+
+<h3><a name="AcceptanceCriteria"></a>Acceptance Criteria</h3>
+
+<p><b>Given</b> products are available<br/>
+<b>When</b> the customer opens the product section<br/>
+<b>Then</b> available products should be displayed with correct information.</p>
+
+<hr />
+
+<h2><a name="FR03%E2%80%93SearchProducts"></a>FR-03 – Search Products</h2>
+
+<p>Customer should be able to search for products using product names.</p>
+
+<p>Example:</p>
+
+<div class="preformatted panel" style="border-width: 1px;"><div class="preformattedContent panelContent">
+<pre>Customer enters:
+"Rice"
+
+↓
+
+System displays:
+Rice products</pre>
+</div></div>
+
+<h3><a name="AcceptanceCriteria"></a>Acceptance Criteria</h3>
+
+<ul>
+	<li>Search should return matching products.</li>
+	<li>Search should not return unrelated products.</li>
+	<li>If no product is found, an appropriate message should be displayed.</li>
+</ul>
+
+
+<hr />
+
+<h1><a name="6.CategoryRequirement"></a>6. Category Requirement</h1>
+
+<h2><a name="FR04%E2%80%93BrowsebyCategory"></a>FR-04 – Browse by Category</h2>
+
+<p>Customer should be able to select a category and view products belonging to that category.</p>
+
+<p>Example:</p>
+
+<div class="preformatted panel" style="border-width: 1px;"><div class="preformattedContent panelContent">
+<pre>Categories
+
+Rice &amp; Grains
+Vegetables
+Fruits
+Beverages
+Snacks
+Household
+Personal Care</pre>
+</div></div>
+
+<h3><a name="AcceptanceCriteria"></a>Acceptance Criteria</h3>
+
+<p>When the customer selects a category, only relevant products should be displayed.</p>
+
+<hr />
+
+<h1><a name="7.ProductDetails"></a>7. Product Details</h1>
+
+<h2><a name="FR05%E2%80%93ViewProductDetails"></a>FR-05 – View Product Details</h2>
+
+<p>Customer should be able to open a product and view detailed information.</p>
+
+<h3><a name="Productdetailsshouldinclude%3A"></a>Product details should include:</h3>
+
+<ul>
+	<li>Product name</li>
+	<li>Product image</li>
+	<li>Description</li>
+	<li>Price</li>
+	<li>Category</li>
+	<li>Availability</li>
+	<li>Add to Cart button</li>
+</ul>
+
+
+<hr />
+
+<h1><a name="8.ShoppingCart"></a>8. Shopping Cart</h1>
+
+<h2><a name="FR06%E2%80%93AddtoCart"></a>FR-06 – Add to Cart</h2>
+
+<p>Customer should be able to add an available product to the shopping cart.</p>
+
+<h3><a name="AcceptanceCriteria"></a>Acceptance Criteria</h3>
+
+<p>When the customer clicks <b>Add to Cart</b>, the selected product should appear in the cart.</p>
+
+<hr />
+
+<h2><a name="FR07%E2%80%93UpdateQuantity"></a>FR-07 – Update Quantity</h2>
+
+<p>Customer should be able to increase or decrease the quantity of products.</p>
+
+<div class="preformatted panel" style="border-width: 1px;"><div class="preformattedContent panelContent">
+<pre>Rice
+Rs. 500
+
+[-]  2  [+]</pre>
+</div></div>
+
+<p>The total amount should automatically update.</p>
+
+<hr />
+
+<h2><a name="FR08%E2%80%93RemoveProduct"></a>FR-08 – Remove Product</h2>
+
+<p>Customer should be able to remove an item from the cart.</p>
+
+<hr />
+
+<h2><a name="FR09%E2%80%93CartSummary"></a>FR-09 – Cart Summary</h2>
+
+<p>The cart should display:</p>
+
+<ul>
+	<li>Product name</li>
+	<li>Price</li>
+	<li>Quantity</li>
+	<li>Subtotal</li>
+	<li>Total order amount</li>
+</ul>
+
+
+<p>Example:</p>
+
+<div class="preformatted panel" style="border-width: 1px;"><div class="preformattedContent panelContent">
+<pre>Rice       Rs.500 × 2 = Rs.1000
+Milk       Rs.300 × 1 = Rs.300
+
+Total = Rs.1300</pre>
+</div></div>
+
+<hr />
+
+<h1><a name="9.CustomerDetails"></a>9. Customer Details</h1>
+
+<h2><a name="FR10%E2%80%93EnterCustomerInformation"></a>FR-10 – Enter Customer Information</h2>
+
+<p>Before placing an order, the customer should provide required information.</p>
+
+<h3><a name="Requiredinformation%3A"></a>Required information:</h3>
+
+<ul>
+	<li>Customer Name</li>
+	<li>Phone Number</li>
+	<li>Delivery Address</li>
+</ul>
+
+
+<p>The system should validate required fields.</p>
+
+<h3><a name="AcceptanceCriteria"></a>Acceptance Criteria</h3>
+
+<p>If required information is missing, the order should not be submitted and the customer should receive an appropriate validation message.</p>
+
+<hr />
+
+<h1><a name="10.PlaceOrder"></a>10. Place Order</h1>
+
+<h2><a name="FR11%E2%80%93PlaceOrder"></a>FR-11 – Place Order</h2>
+
+<p>Customer should be able to submit the order after reviewing:</p>
+
+<ul>
+	<li>Products</li>
+	<li>Quantity</li>
+	<li>Prices</li>
+	<li>Total amount</li>
+	<li>Customer information</li>
+</ul>
+
+
+<h3><a name="Orderprocess"></a>Order process</h3>
+
+<div class="preformatted panel" style="border-width: 1px;"><div class="preformattedContent panelContent">
+<pre>Customer clicks "Place Order"
+          ↓
+System validates details
+          ↓
+Order submitted
+          ↓
+Order saved to database
+          ↓
+Unique Order ID generated</pre>
+</div></div>
+
+<hr />
+
+<h1><a name="11.OrderID"></a>11. Order ID</h1>
+
+<h2><a name="FR12%E2%80%93GenerateOrderID"></a>FR-12 – Generate Order ID</h2>
+
+<p>After successful order placement, the system should generate a unique Order ID.</p>
+
+<p>Example:</p>
+
+<div class="preformatted panel" style="border-width: 1px;"><div class="preformattedContent panelContent">
+<pre>Order Successfully Placed!
+
+Order ID: SUN-000125
+
+Total: Rs. 2,450
+
+Please call Sunil Store to confirm your order.</pre>
+</div></div>
+
+<p>The Order ID should be stored together with the order details in the database.</p>
+
+<hr />
+
+<h1><a name="12.CallStore"></a>12. Call Store</h1>
+
+<h2><a name="FR13%E2%80%93CallStore"></a>FR-13 – Call Store</h2>
+
+<p>After receiving the Order ID, the customer should be able to contact Sunil Store.</p>
+
+<p>A <b>Call Store</b> button can be provided.</p>
+
+<p>On a supported mobile device:</p>
+
+<div class="preformatted panel" style="border-width: 1px;"><div class="preformattedContent panelContent">
+<pre>📞 Call Store
+      ↓
+Phone dialer opens</pre>
+</div></div>
+
+<p>The customer can tell the store:</p>
+
+<blockquote><p>"My Order ID is SUN-000125."</p></blockquote>
+
+<hr />
+
+<h1><a name="13.StoreConfirmation"></a>13. Store Confirmation</h1>
+
+<h2><a name="FR14%E2%80%93ConfirmCustomerOrder"></a>FR-14 – Confirm Customer Order</h2>
+
+<p>After receiving the customer's call, store staff should locate the order using the Order ID.</p>
+
+<p>The admin should be able to verify:</p>
+
+<ul>
+	<li>Order ID</li>
+	<li>Customer name</li>
+	<li>Phone number</li>
+	<li>Delivery address</li>
+	<li>Products</li>
+	<li>Quantities</li>
+	<li>Total amount</li>
+	<li>Order date/time</li>
+</ul>
+
+
+<p>After confirming the order, the order status should change from:</p>
+
+<div class="preformatted panel" style="border-width: 1px;"><div class="preformattedContent panelContent">
+<pre>Pending
+   ↓
+Confirmed</pre>
+</div></div>
+
+<hr />
+
+<h1><a name="14.OrderProcessing"></a>14. Order Processing</h1>
+
+<h2><a name="FR15%E2%80%93ProcessConfirmedOrder"></a>FR-15 – Process Confirmed Order</h2>
+
+<p>Once the store confirms the order, the order can move to:</p>
+
+<div class="preformatted panel" style="border-width: 1px;"><div class="preformattedContent panelContent">
+<pre>Pending
+   ↓
+Confirmed
+   ↓
+Processing</pre>
+</div></div>
+
+<p>Admin should be able to update the status.</p>
+
+<p>Additional status options can include:</p>
+
+<div class="preformatted panel" style="border-width: 1px;"><div class="preformattedContent panelContent">
+<pre>Completed
+Cancelled</pre>
+</div></div>
+
+<hr />
+
+<h1><a name="15.AdminPanel"></a>15. Admin Panel</h1>
+
+<h2><a name="FR16%E2%80%93AdminLogin"></a>FR-16 – Admin Login</h2>
+
+<p>Only authorized admin users should be able to access the Admin Panel.</p>
+
+<hr />
+
+<h2><a name="FR17%E2%80%93ViewAllOrders"></a>FR-17 – View All Orders</h2>
+
+<p>Admin should be able to view <b>all customer orders</b>.</p>
+
+<p>The order list should display:</p>
+
+<div class='table-wrap'>
+<table class='confluenceTable'><tbody>
+<tr>
+<th class='confluenceTh'>Field</th>
+<th class='confluenceTh'>Description</th>
+</tr>
+<tr>
+<td class='confluenceTd'>Order ID</td>
+<td class='confluenceTd'>Unique order number</td>
+</tr>
+<tr>
+<td class='confluenceTd'>Customer</td>
+<td class='confluenceTd'>Customer name</td>
+</tr>
+<tr>
+<td class='confluenceTd'>Phone</td>
+<td class='confluenceTd'>Customer phone</td>
+</tr>
+<tr>
+<td class='confluenceTd'>Address</td>
+<td class='confluenceTd'>Delivery address</td>
+</tr>
+<tr>
+<td class='confluenceTd'>Items</td>
+<td class='confluenceTd'>Ordered products</td>
+</tr>
+<tr>
+<td class='confluenceTd'>Quantity</td>
+<td class='confluenceTd'>Product quantity</td>
+</tr>
+<tr>
+<td class='confluenceTd'>Total</td>
+<td class='confluenceTd'>Total order amount</td>
+</tr>
+<tr>
+<td class='confluenceTd'>Date</td>
+<td class='confluenceTd'>Order date/time</td>
+</tr>
+<tr>
+<td class='confluenceTd'>Status</td>
+<td class='confluenceTd'>Current order status</td>
+</tr>
+</tbody></table>
+</div>
+
+
+<hr />
+
+<h1><a name="16.AdminOrderManagement"></a>16. Admin Order Management</h1>
+
+<h2><a name="FR18%E2%80%93SearchOrder"></a>FR-18 – Search Order</h2>
+
+<p>Admin should be able to search orders using:</p>
+
+<ul>
+	<li>Order ID</li>
+	<li>Customer name</li>
+	<li>Phone number</li>
+</ul>
+
+
+<hr />
+
+<h2><a name="FR19%E2%80%93UpdateOrderStatus"></a>FR-19 – Update Order Status</h2>
+
+<p>Admin should be able to update order status.</p>
+
+<div class="preformatted panel" style="border-width: 1px;"><div class="preformattedContent panelContent">
+<pre>Pending
+   ↓
+Confirmed
+   ↓
+Processing
+   ↓
+Completed</pre>
+</div></div>
+
+<p>Admin should also be able to mark an order as:</p>
+
+<div class="preformatted panel" style="border-width: 1px;"><div class="preformattedContent panelContent">
+<pre>Cancelled</pre>
+</div></div>
+
+<hr />
+
+<h1><a name="17.ProductManagement%E2%80%93Admin"></a>17. Product Management – Admin</h1>
+
+<h2><a name="FR20%E2%80%93AddProduct"></a>FR-20 – Add Product</h2>
+
+<p>Admin should be able to add new grocery products.</p>
+
+<p>Required information:</p>
+
+<ul>
+	<li>Product name</li>
+	<li>Price</li>
+	<li>Category</li>
+	<li>Image</li>
+	<li>Description</li>
+	<li>Availability</li>
+</ul>
+
+
+<hr />
+
+<h2><a name="FR21%E2%80%93EditProduct"></a>FR-21 – Edit Product</h2>
+
+<p>Admin should be able to update existing product information.</p>
+
+<hr />
+
+<h2><a name="FR22%E2%80%93DeleteProduct"></a>FR-22 – Delete Product</h2>
+
+<p>Admin should be able to remove products that are no longer available.</p>
+
+<hr />
+
+<h1><a name="18.CategoryManagement"></a>18. Category Management</h1>
+
+<h2><a name="FR23%E2%80%93ManageCategories"></a>FR-23 – Manage Categories</h2>
+
+<p>Admin should be able to:</p>
+
+<ul>
+	<li>Add category</li>
+	<li>Edit category</li>
+	<li>Delete category</li>
+</ul>
+
+
+<p>Products should be associated with the correct category.</p>
+
+<hr />
+
+<h1><a name="19.DatabaseRequirements"></a>19. Database Requirements</h1>
+
+<p>The system should store the following information.</p>
+
+<h3><a name="Product"></a>Product</h3>
+
+<div class="preformatted panel" style="border-width: 1px;"><div class="preformattedContent panelContent">
+<pre>Product ID
+Product Name
+Description
+Category
+Price
+Image
+Availability</pre>
+</div></div>
+
+<h3><a name="CustomerOrder"></a>Customer Order</h3>
+
+<div class="preformatted panel" style="border-width: 1px;"><div class="preformattedContent panelContent">
+<pre>Order ID
+Customer Name
+Phone Number
+Delivery Address
+Ordered Products
+Quantity
+Total Amount
+Order Date/Time
+Order Status</pre>
+</div></div>
+
+<h3><a name="OrderStatus"></a>Order Status</h3>
+
+<div class="preformatted panel" style="border-width: 1px;"><div class="preformattedContent panelContent">
+<pre>Pending
+Confirmed
+Processing
+Completed
+Cancelled</pre>
+</div></div>
+
+<hr />
+
+<h1><a name="20.APIRequirements"></a>20. API Requirements</h1>
+
+<p>The application should communicate with the database through the existing Vercel API.</p>
+
+<p>Main operations:</p>
+
+<div class="preformatted panel" style="border-width: 1px;"><div class="preformattedContent panelContent">
+<pre>GET    → Products
+POST   → Create Order
+GET    → Orders
+PUT    → Update Order
+POST   → Add Product
+PUT    → Update Product
+DELETE → Delete Product</pre>
+</div></div>
+
+<p>The API should return proper success and error responses.</p>
+
+<hr />
+
+<h1><a name="21.MobileApp%2FPWARequirements"></a>21. Mobile App / PWA Requirements</h1>
+
+<p>The existing website should work as a <b>Progressive Web App (PWA)</b>.</p>
+
+<h3><a name="Customershouldbeableto%3A"></a>Customer should be able to:</h3>
+
+<div class="preformatted panel" style="border-width: 1px;"><div class="preformattedContent panelContent">
+<pre>Open Sunil Store
+       ↓
+Add to Home Screen
+       ↓
+📱 Sunil Store App</pre>
+</div></div>
+
+<p>Play Store upload is <b>not required</b>.</p>
+
+<p>The application should provide:</p>
+
+<ul>
+	<li>App icon</li>
+	<li>Standalone app mode</li>
+	<li>Mobile responsive UI</li>
+	<li>PWA manifest</li>
+	<li>Service worker</li>
+	<li>Mobile-friendly navigation</li>
+	<li>Touch-friendly buttons</li>
+	<li>Responsive product/cart pages</li>
+</ul>
+
+
+<hr />
+
+<h1><a name="22.SecurityRequirements"></a>22. Security Requirements</h1>
+
+<p>The system should:</p>
+
+<ul>
+	<li>Protect Admin Panel</li>
+	<li>Validate customer input</li>
+	<li>Validate API requests</li>
+	<li>Prevent unauthorized admin operations</li>
+	<li>Protect database access</li>
+	<li>Prevent invalid orders</li>
+	<li>Validate product quantities</li>
+	<li>Handle invalid requests safely</li>
+</ul>
+
+
+<hr />
+
+<h1><a name="23.NonFunctionalRequirements"></a>23. Non-Functional Requirements</h1>
+
+<h3><a name="Usability"></a>Usability</h3>
+
+<p>The application should be simple and easy to use for normal grocery customers.</p>
+
+<h3><a name="Performance"></a>Performance</h3>
+
+<p>Products and pages should load within a reasonable time.</p>
+
+<h3><a name="Responsiveness"></a>Responsiveness</h3>
+
+<p>The system should work correctly on:</p>
+
+<ul>
+	<li>Android phones</li>
+	<li>Tablets</li>
+	<li>Laptops</li>
+	<li>Desktop computers</li>
+</ul>
+
+
+<h3><a name="Reliability"></a>Reliability</h3>
+
+<p>Successfully submitted orders should remain stored in the database.</p>
+
+<h3><a name="Availability"></a>Availability</h3>
+
+<p>The application should be accessible through the deployed Vercel environment.</p>
+
+<hr />
+
+<h1><a name="24.MainJiraEpicStructure"></a>24. Main Jira Epic Structure</h1>
+
+<p>ඔයා මේ requirements <b>Jira එකට directly manage කරන්න</b> නම් මේ structure එක use කරන්න:</p>
+
+<div class="preformatted panel" style="border-width: 1px;"><div class="preformattedContent panelContent">
+<pre>EPIC 01 – Customer Shopping
+
+ ├── Story: View Home Page
+ ├── Story: View Products
+ ├── Story: Search Products
+ ├── Story: Browse Products by Category
+ └── Story: View Product Details
+
+
+EPIC 02 – Shopping Cart
+
+ ├── Story: Add Product to Cart
+ ├── Story: Update Cart Quantity
+ ├── Story: Remove Product from Cart
+ └── Story: Calculate Cart Total
+
+
+EPIC 03 – Customer Order
+
+ ├── Story: Enter Customer Details
+ ├── Story: Review Order
+ ├── Story: Place Order
+ ├── Story: Generate Order ID
+ └── Story: Call Store for Order Confirmation
+
+
+EPIC 04 – Order Management
+
+ ├── Story: Admin View All Orders
+ ├── Story: Search Customer Order
+ ├── Story: Confirm Order
+ ├── Story: Process Order
+ ├── Story: Complete Order
+ └── Story: Cancel Order
+
+
+EPIC 05 – Admin Product Management
+
+ ├── Story: Add Product
+ ├── Story: Edit Product
+ ├── Story: Delete Product
+ └── Story: Manage Categories
+
+
+EPIC 06 – API &amp; Database
+
+ ├── Story: Product API
+ ├── Story: Create Order API
+ ├── Story: Retrieve Orders
+ ├── Story: Update Order Status
+ └── Story: Database Validation
+
+
+EPIC 07 – Mobile PWA
+
+ ├── Story: PWA Manifest
+ ├── Story: App Icon
+ ├── Story: Service Worker
+ ├── Story: Add to Home Screen
+ └── Story: Responsive Mobile UI
+
+
+EPIC 08 – QA Testing
+
+ ├── Functional Testing
+ ├── UI Testing
+ ├── API Testing
+ ├── Database Testing
+ ├── Regression Testing
+ ├── Performance Testing
+ ├── Security Testing
+ └── Mobile/PWA Testing</pre>
+</div></div>
+
+<h3><a name="%E2%AD%90Mostimportantendtoendrequirement"></a>⭐ Most important end-to-end requirement</h3>
+
+<div class="preformatted panel" style="border-width: 1px;"><div class="preformattedContent panelContent">
+<pre>Customer
+   ↓
+Home
+   ↓
+Products
+   ↓
+Search / Category
+   ↓
+Product Details
+   ↓
+Add to Cart
+   ↓
+Cart
+   ↓
+Customer Details
+   ↓
+Place Order
+   ↓
+Order saved in Database
+   ↓
+Order ID Created
+   ↓
+📞 Customer Calls Store
+   ↓
+Admin Finds Order ID
+   ↓
+Store Confirms Order
+   ↓
+Confirmed
+   ↓
+Processing
+   ↓
+Completed</pre>
+</div></div>
+            <br/>
+        </td>
+    </tr>
+    </table>
+
+<hr class='fullcontent'><br /><br style='page-break-before:always;'/><br />
+<table class="tableBorder" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" width="100%" colspan="2" valign="top">
+                            <h3 class="formtitle">
+                        [SSQA-2]&nbsp;<a href="https://rashanrahul2000-1788285295297.atlassian.net/browse/SSQA-2">Customer Shopping -</a>
+            <span class="subText">
+               Created: 17/Sep/26                   &nbsp;Updated: 18/Sep/26
+
+                                                    &nbsp;Resolved: 18/Sep/26
+                            </span>
+            </h3>
+        </td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Status:</b></td>
+        <td width="80%">Done</td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Project:</b></td>
+        <td width="80%"><a href="https://rashanrahul2000-1788285295297.atlassian.net/secure/BrowseProject.jspa?id=10035">Sunil Store Grocery QA</a></td>
+    </tr>
+
+        <tr>
+            <td><b>Components:</b></td>
+            <td>
+                            None
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Affects versions:</b></td>
+            <td>
+                            None
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Fix versions:</b></td>
+            <td>
+                            None
+                </td>
+    </tr>
+    
+    
+    </table>
+
+<br />
+<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" valign="top" width="20%">
+            <b>Type:</b>
+        </td>
+        <td bgcolor="#ffffff" valign="top"  width="30%" >
+            Epic
+        </td>
+
+                    <td bgcolor="#f0f0f0">
+                <b>Priority:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap>
+                Medium
+            </td>
+            </tr>
+    <tr>
+                        <td bgcolor="#f0f0f0" valign="top" width="20%">
+                <b>Reporter:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top"  width="30%" >
+                                        
+                
+        
+            <a class="user-hover" rel="712020:21ef7c12-2367-4bf8-bda1-9c697939bb8e"
+                id="word_reporter_712020:21ef7c12-2367-4bf8-bda1-9c697939bb8e"
+                href="https://rashanrahul2000-1788285295297.atlassian.net/secure/ViewProfile.jspa?accountId=712020%3A21ef7c12-2367-4bf8-bda1-9c697939bb8e">
+                    rashan rahul
+                </a>
+
+                            </td>
+        
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Assignee:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap  width="30%" >
+                                        
+                
+        
+            <a class="user-hover" rel="712020:21ef7c12-2367-4bf8-bda1-9c697939bb8e"
+                id="word_assignee_712020:21ef7c12-2367-4bf8-bda1-9c697939bb8e"
+                href="https://rashanrahul2000-1788285295297.atlassian.net/secure/ViewProfile.jspa?accountId=712020%3A21ef7c12-2367-4bf8-bda1-9c697939bb8e">
+                    rashan rahul
+                </a>
+
+                            </td>
+            </tr>
+    	<tr>
+		<td bgcolor="#f0f0f0" width="20%">
+			<b>Resolution:</b>
+		</td>
+		<td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+                            Done
+                    </td>
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Votes:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+                0
+            </td>
+        
+    </tr>
+    
+        <tr>
+        <td bgcolor="#f0f0f0" width="20%">
+            <b>Labels:</b>
+        </td>
+        <td id="labels-10062-value" class="value" bgcolor="#ffffff" valign="top" colspan="3" nowrap>
+                            None
+                    </td>
+    </tr>
+    
+    	<tr>
+        		<td bgcolor="#f0f0f0" width="20%"><b>Remaining Estimate:</b></td>
+        <td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Not Specified
+            		</td>
+    </tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Time Spent:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Not Specified
+            		</td>
+	</tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Original estimate:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Not Specified
+            		</td>
+    </tr>
+    
+    </table>
+
+
+
+    <br />
+
+    	<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+            
+
+        
+    
+
+
+    
+                        <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>Rank:</b></td>
+                <td id="customfield_10019-10062-value" class="value" bgcolor="#ffffff" width="80%">      0|i00067:
+  </td>
+            </tr>
+            </table>
+
+    <br/>
+
+    <table cellpadding="2" cellspacing="0" border="0" width="100%" align="center">
+    <tr>
+        <td bgcolor="#bbbbbb" width="1%" nowrap align="center">
+            &nbsp;<font color="#ffffff"><b>Description</b></font>&nbsp;
+        </td>
+        <td>&nbsp;</td>
+    </tr>
+    </table>
+
+    <table cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td id="descriptionArea">
+            <ul>
+	<li>View Home Page</li>
+	<li>View Products</li>
+	<li>Search Products</li>
+	<li>Browse Products by Category</li>
+	<li>View Product Details</li>
+</ul>
+
+            <br/>
+        </td>
+    </tr>
+    </table>
+
+<hr class='fullcontent'><br /><br style='page-break-before:always;'/><br />
+<table class="tableBorder" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" width="100%" colspan="2" valign="top">
+                            <h3 class="formtitle">
+                        [SSQA-9]&nbsp;<a href="https://rashanrahul2000-1788285295297.atlassian.net/browse/SSQA-9">Order</a>
+            <span class="subText">
+               Created: 18/Sep/26                   &nbsp;Updated: 18/Sep/26
+
+                                                    &nbsp;Resolved: 18/Sep/26
+                            </span>
+            </h3>
+        </td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Status:</b></td>
+        <td width="80%">Done</td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Project:</b></td>
+        <td width="80%"><a href="https://rashanrahul2000-1788285295297.atlassian.net/secure/BrowseProject.jspa?id=10035">Sunil Store Grocery QA</a></td>
+    </tr>
+
+        <tr>
+            <td><b>Components:</b></td>
+            <td>
+                            None
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Affects versions:</b></td>
+            <td>
+                            None
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Fix versions:</b></td>
+            <td>
+                            None
+                </td>
+    </tr>
+    
+    
+    </table>
+
+<br />
+<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" valign="top" width="20%">
+            <b>Type:</b>
+        </td>
+        <td bgcolor="#ffffff" valign="top"  width="30%" >
+            Epic
+        </td>
+
+                    <td bgcolor="#f0f0f0">
+                <b>Priority:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap>
+                Medium
+            </td>
+            </tr>
+    <tr>
+                        <td bgcolor="#f0f0f0" valign="top" width="20%">
+                <b>Reporter:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top"  width="30%" >
+                                        
+                
+        
+            <a class="user-hover" rel="712020:21ef7c12-2367-4bf8-bda1-9c697939bb8e"
+                id="word_reporter_712020:21ef7c12-2367-4bf8-bda1-9c697939bb8e"
+                href="https://rashanrahul2000-1788285295297.atlassian.net/secure/ViewProfile.jspa?accountId=712020%3A21ef7c12-2367-4bf8-bda1-9c697939bb8e">
+                    rashan rahul
+                </a>
+
+                            </td>
+        
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Assignee:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap  width="30%" >
+                                    Unassigned
+                            </td>
+            </tr>
+    	<tr>
+		<td bgcolor="#f0f0f0" width="20%">
+			<b>Resolution:</b>
+		</td>
+		<td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+                            Done
+                    </td>
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Votes:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+                0
+            </td>
+        
+    </tr>
+    
+        <tr>
+        <td bgcolor="#f0f0f0" width="20%">
+            <b>Labels:</b>
+        </td>
+        <td id="labels-10069-value" class="value" bgcolor="#ffffff" valign="top" colspan="3" nowrap>
+                            None
+                    </td>
+    </tr>
+    
+    	<tr>
+        		<td bgcolor="#f0f0f0" width="20%"><b>Remaining Estimate:</b></td>
+        <td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Not Specified
+            		</td>
+    </tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Time Spent:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Not Specified
+            		</td>
+	</tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Original estimate:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Not Specified
+            		</td>
+    </tr>
+    
+    </table>
+
+
+
+    <br />
+
+    	<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+            
+
+        
+    
+
+
+    
+                        <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>Rank:</b></td>
+                <td id="customfield_10019-10069-value" class="value" bgcolor="#ffffff" width="80%">      0|i00069:
+  </td>
+            </tr>
+            </table>
+
+    <br/>
+
+    <table cellpadding="2" cellspacing="0" border="0" width="100%" align="center">
+    <tr>
+        <td bgcolor="#bbbbbb" width="1%" nowrap align="center">
+            &nbsp;<font color="#ffffff"><b>Description</b></font>&nbsp;
+        </td>
+        <td>&nbsp;</td>
+    </tr>
+    </table>
+
+    <table cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td id="descriptionArea">
+            <ul>
+	<li>Enter Customer Details</li>
+	<li>Review Order</li>
+	<li>Place Order</li>
+	<li>Generate Order ID</li>
+	<li>Call Store for Order Confirmation</li>
+</ul>
+
+            <br/>
+        </td>
+    </tr>
+    </table>
+
+<hr class='fullcontent'><br /><br style='page-break-before:always;'/><br />
+<table class="tableBorder" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" width="100%" colspan="2" valign="top">
+                            <h3 class="formtitle">
+                        [SSQA-10]&nbsp;<a href="https://rashanrahul2000-1788285295297.atlassian.net/browse/SSQA-10">Admin</a>
+            <span class="subText">
+               Created: 18/Sep/26                   &nbsp;Updated: 19/Sep/26
+
+                                                    &nbsp;Resolved: 19/Sep/26
+                            </span>
+            </h3>
+        </td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Status:</b></td>
+        <td width="80%">Done</td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Project:</b></td>
+        <td width="80%"><a href="https://rashanrahul2000-1788285295297.atlassian.net/secure/BrowseProject.jspa?id=10035">Sunil Store Grocery QA</a></td>
+    </tr>
+
+        <tr>
+            <td><b>Components:</b></td>
+            <td>
+                            None
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Affects versions:</b></td>
+            <td>
+                            None
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Fix versions:</b></td>
+            <td>
+                            None
+                </td>
+    </tr>
+    
+    
+    </table>
+
+<br />
+<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" valign="top" width="20%">
+            <b>Type:</b>
+        </td>
+        <td bgcolor="#ffffff" valign="top"  width="30%" >
+            Epic
+        </td>
+
+                    <td bgcolor="#f0f0f0">
+                <b>Priority:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap>
+                Medium
+            </td>
+            </tr>
+    <tr>
+                        <td bgcolor="#f0f0f0" valign="top" width="20%">
+                <b>Reporter:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top"  width="30%" >
+                                        
+                
+        
+            <a class="user-hover" rel="712020:21ef7c12-2367-4bf8-bda1-9c697939bb8e"
+                id="word_reporter_712020:21ef7c12-2367-4bf8-bda1-9c697939bb8e"
+                href="https://rashanrahul2000-1788285295297.atlassian.net/secure/ViewProfile.jspa?accountId=712020%3A21ef7c12-2367-4bf8-bda1-9c697939bb8e">
+                    rashan rahul
+                </a>
+
+                            </td>
+        
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Assignee:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap  width="30%" >
+                                    Unassigned
+                            </td>
+            </tr>
+    	<tr>
+		<td bgcolor="#f0f0f0" width="20%">
+			<b>Resolution:</b>
+		</td>
+		<td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+                            Done
+                    </td>
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Votes:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+                0
+            </td>
+        
+    </tr>
+    
+        <tr>
+        <td bgcolor="#f0f0f0" width="20%">
+            <b>Labels:</b>
+        </td>
+        <td id="labels-10070-value" class="value" bgcolor="#ffffff" valign="top" colspan="3" nowrap>
+                            None
+                    </td>
+    </tr>
+    
+    	<tr>
+        		<td bgcolor="#f0f0f0" width="20%"><b>Remaining Estimate:</b></td>
+        <td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Not Specified
+            		</td>
+    </tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Time Spent:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Not Specified
+            		</td>
+	</tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Original estimate:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Not Specified
+            		</td>
+    </tr>
+    
+    </table>
+
+
+
+    <br />
+
+    	<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+            
+
+        
+    
+
+
+    
+                        <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>Rank:</b></td>
+                <td id="customfield_10019-10070-value" class="value" bgcolor="#ffffff" width="80%">      0|i0006a:
+  </td>
+            </tr>
+            </table>
+
+    <br/>
+
+    <table cellpadding="2" cellspacing="0" border="0" width="100%" align="center">
+    <tr>
+        <td bgcolor="#bbbbbb" width="1%" nowrap align="center">
+            &nbsp;<font color="#ffffff"><b>Description</b></font>&nbsp;
+        </td>
+        <td>&nbsp;</td>
+    </tr>
+    </table>
+
+    <table cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td id="descriptionArea">
+            <ul>
+	<li>Admin View All Orders</li>
+	<li>Search Customer Order</li>
+	<li>Confirm Order</li>
+	<li>Process Order</li>
+	<li>Complete Order</li>
+	<li>Cancel Order</li>
+</ul>
+
+            <br/>
+        </td>
+    </tr>
+    </table>
+
+<hr class='fullcontent'><br /><br style='page-break-before:always;'/><br />
+<table class="tableBorder" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" width="100%" colspan="2" valign="top">
+                            <h3 class="formtitle">
+                        [SSQA-11]&nbsp;<a href="https://rashanrahul2000-1788285295297.atlassian.net/browse/SSQA-11">Admin Products</a>
+            <span class="subText">
+               Created: 18/Sep/26                   &nbsp;Updated: 19/Sep/26
+
+                                                    &nbsp;Resolved: 19/Sep/26
+                            </span>
+            </h3>
+        </td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Status:</b></td>
+        <td width="80%">Done</td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Project:</b></td>
+        <td width="80%"><a href="https://rashanrahul2000-1788285295297.atlassian.net/secure/BrowseProject.jspa?id=10035">Sunil Store Grocery QA</a></td>
+    </tr>
+
+        <tr>
+            <td><b>Components:</b></td>
+            <td>
+                            None
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Affects versions:</b></td>
+            <td>
+                            None
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Fix versions:</b></td>
+            <td>
+                            None
+                </td>
+    </tr>
+    
+    
+    </table>
+
+<br />
+<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" valign="top" width="20%">
+            <b>Type:</b>
+        </td>
+        <td bgcolor="#ffffff" valign="top"  width="30%" >
+            Epic
+        </td>
+
+                    <td bgcolor="#f0f0f0">
+                <b>Priority:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap>
+                Medium
+            </td>
+            </tr>
+    <tr>
+                        <td bgcolor="#f0f0f0" valign="top" width="20%">
+                <b>Reporter:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top"  width="30%" >
+                                        
+                
+        
+            <a class="user-hover" rel="712020:21ef7c12-2367-4bf8-bda1-9c697939bb8e"
+                id="word_reporter_712020:21ef7c12-2367-4bf8-bda1-9c697939bb8e"
+                href="https://rashanrahul2000-1788285295297.atlassian.net/secure/ViewProfile.jspa?accountId=712020%3A21ef7c12-2367-4bf8-bda1-9c697939bb8e">
+                    rashan rahul
+                </a>
+
+                            </td>
+        
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Assignee:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap  width="30%" >
+                                    Unassigned
+                            </td>
+            </tr>
+    	<tr>
+		<td bgcolor="#f0f0f0" width="20%">
+			<b>Resolution:</b>
+		</td>
+		<td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+                            Done
+                    </td>
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Votes:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+                0
+            </td>
+        
+    </tr>
+    
+        <tr>
+        <td bgcolor="#f0f0f0" width="20%">
+            <b>Labels:</b>
+        </td>
+        <td id="labels-10071-value" class="value" bgcolor="#ffffff" valign="top" colspan="3" nowrap>
+                            None
+                    </td>
+    </tr>
+    
+    	<tr>
+        		<td bgcolor="#f0f0f0" width="20%"><b>Remaining Estimate:</b></td>
+        <td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Not Specified
+            		</td>
+    </tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Time Spent:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Not Specified
+            		</td>
+	</tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Original estimate:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Not Specified
+            		</td>
+    </tr>
+    
+    </table>
+
+
+
+    <br />
+
+    	<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+            
+
+        
+    
+
+
+    
+                        <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>Rank:</b></td>
+                <td id="customfield_10019-10071-value" class="value" bgcolor="#ffffff" width="80%">      0|i0006a:i
+  </td>
+            </tr>
+            </table>
+
+    <br/>
+
+    <table cellpadding="2" cellspacing="0" border="0" width="100%" align="center">
+    <tr>
+        <td bgcolor="#bbbbbb" width="1%" nowrap align="center">
+            &nbsp;<font color="#ffffff"><b>Description</b></font>&nbsp;
+        </td>
+        <td>&nbsp;</td>
+    </tr>
+    </table>
+
+    <table cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td id="descriptionArea">
+            <ul>
+	<li>Add Product</li>
+	<li>Edit Product</li>
+	<li>Delete Product</li>
+	<li>Manage Categories</li>
+</ul>
+
+            <br/>
+        </td>
+    </tr>
+    </table>
+
+<hr class='fullcontent'><br /><br style='page-break-before:always;'/><br />
+<table class="tableBorder" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" width="100%" colspan="2" valign="top">
+                            <h3 class="formtitle">
+                        [SSQA-8]&nbsp;<a href="https://rashanrahul2000-1788285295297.atlassian.net/browse/SSQA-8">Cart</a>
+            <span class="subText">
+               Created: 18/Sep/26                   &nbsp;Updated: 19/Sep/26
+
+                                                    &nbsp;Resolved: 19/Sep/26
+                            </span>
+            </h3>
+        </td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Status:</b></td>
+        <td width="80%">Done</td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Project:</b></td>
+        <td width="80%"><a href="https://rashanrahul2000-1788285295297.atlassian.net/secure/BrowseProject.jspa?id=10035">Sunil Store Grocery QA</a></td>
+    </tr>
+
+        <tr>
+            <td><b>Components:</b></td>
+            <td>
+                            None
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Affects versions:</b></td>
+            <td>
+                            None
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Fix versions:</b></td>
+            <td>
+                            None
+                </td>
+    </tr>
+    
+    
+    </table>
+
+<br />
+<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" valign="top" width="20%">
+            <b>Type:</b>
+        </td>
+        <td bgcolor="#ffffff" valign="top"  width="30%" >
+            Epic
+        </td>
+
+                    <td bgcolor="#f0f0f0">
+                <b>Priority:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap>
+                Medium
+            </td>
+            </tr>
+    <tr>
+                        <td bgcolor="#f0f0f0" valign="top" width="20%">
+                <b>Reporter:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top"  width="30%" >
+                                        
+                
+        
+            <a class="user-hover" rel="712020:21ef7c12-2367-4bf8-bda1-9c697939bb8e"
+                id="word_reporter_712020:21ef7c12-2367-4bf8-bda1-9c697939bb8e"
+                href="https://rashanrahul2000-1788285295297.atlassian.net/secure/ViewProfile.jspa?accountId=712020%3A21ef7c12-2367-4bf8-bda1-9c697939bb8e">
+                    rashan rahul
+                </a>
+
+                            </td>
+        
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Assignee:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap  width="30%" >
+                                    Unassigned
+                            </td>
+            </tr>
+    	<tr>
+		<td bgcolor="#f0f0f0" width="20%">
+			<b>Resolution:</b>
+		</td>
+		<td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+                            Done
+                    </td>
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Votes:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+                0
+            </td>
+        
+    </tr>
+    
+        <tr>
+        <td bgcolor="#f0f0f0" width="20%">
+            <b>Labels:</b>
+        </td>
+        <td id="labels-10068-value" class="value" bgcolor="#ffffff" valign="top" colspan="3" nowrap>
+                            None
+                    </td>
+    </tr>
+    
+    	<tr>
+        		<td bgcolor="#f0f0f0" width="20%"><b>Remaining Estimate:</b></td>
+        <td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Not Specified
+            		</td>
+    </tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Time Spent:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Not Specified
+            		</td>
+	</tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Original estimate:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Not Specified
+            		</td>
+    </tr>
+    
+    </table>
+
+
+
+    <br />
+
+    	<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+            
+
+        
+    
+
+
+    
+                        <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>Rank:</b></td>
+                <td id="customfield_10019-10068-value" class="value" bgcolor="#ffffff" width="80%">      0|i0006b:
+  </td>
+            </tr>
+            </table>
+
+    <br/>
+
+    <table cellpadding="2" cellspacing="0" border="0" width="100%" align="center">
+    <tr>
+        <td bgcolor="#bbbbbb" width="1%" nowrap align="center">
+            &nbsp;<font color="#ffffff"><b>Description</b></font>&nbsp;
+        </td>
+        <td>&nbsp;</td>
+    </tr>
+    </table>
+
+    <table cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td id="descriptionArea">
+            <ul>
+	<li>Add Product to Cart</li>
+	<li>Update Cart Quantity</li>
+	<li>Remove Product from Cart</li>
+	<li>Calculate Cart Total</li>
+</ul>
+
+            <br/>
+        </td>
+    </tr>
+    </table>
+
+<hr class='fullcontent'><br /><br style='page-break-before:always;'/><br />
+<table class="tableBorder" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" width="100%" colspan="2" valign="top">
+                            <b><a id="parent_issue_summary" href="https://rashanrahul2000-1788285295297.atlassian.net/browse/SSQA-2">Customer Shopping -</a></b>
+                <span style="font-size: 9px">(<a id="parent_issue_key" href="https://rashanrahul2000-1788285295297.atlassian.net/browse/SSQA-2">SSQA-2</a>)</span>
+                <h3 class="formtitle"><img src="https://rashanrahul2000-1788285295297.atlassian.net/images/icons/link_out_bot.gif" width="16" height="16" />
+                        [SSQA-3]&nbsp;<a href="https://rashanrahul2000-1788285295297.atlassian.net/browse/SSQA-3">View Home Page</a>
+            <span class="subText">
+               Created: 17/Sep/26                   &nbsp;Updated: 17/Sep/26
+
+                                                    &nbsp;Resolved: 17/Sep/26
+                            </span>
+            </h3>
+        </td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Status:</b></td>
+        <td width="80%">Done</td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Project:</b></td>
+        <td width="80%"><a href="https://rashanrahul2000-1788285295297.atlassian.net/secure/BrowseProject.jspa?id=10035">Sunil Store Grocery QA</a></td>
+    </tr>
+
+        <tr>
+            <td><b>Components:</b></td>
+            <td>
+                            None
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Affects versions:</b></td>
+            <td>
+                            None
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Fix versions:</b></td>
+            <td>
+                            None
+                </td>
+    </tr>
+    
+    
+            <td width="20%"><b>Parent:</b></td>
+        <td width="80%"><a href="https://rashanrahul2000-1788285295297.atlassian.net/browse/SSQA-2">Customer Shopping -</a></td>
+    </table>
+
+<br />
+<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" valign="top" width="20%">
+            <b>Type:</b>
+        </td>
+        <td bgcolor="#ffffff" valign="top"  width="30%" >
+            Task
+        </td>
+
+                    <td bgcolor="#f0f0f0">
+                <b>Priority:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap>
+                Medium
+            </td>
+            </tr>
+    <tr>
+                        <td bgcolor="#f0f0f0" valign="top" width="20%">
+                <b>Reporter:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top"  width="30%" >
+                                        
+                
+        
+            <a class="user-hover" rel="712020:21ef7c12-2367-4bf8-bda1-9c697939bb8e"
+                id="word_reporter_712020:21ef7c12-2367-4bf8-bda1-9c697939bb8e"
+                href="https://rashanrahul2000-1788285295297.atlassian.net/secure/ViewProfile.jspa?accountId=712020%3A21ef7c12-2367-4bf8-bda1-9c697939bb8e">
+                    rashan rahul
+                </a>
+
+                            </td>
+        
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Assignee:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap  width="30%" >
+                                    Unassigned
+                            </td>
+            </tr>
+    	<tr>
+		<td bgcolor="#f0f0f0" width="20%">
+			<b>Resolution:</b>
+		</td>
+		<td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+                            Done
+                    </td>
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Votes:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+                0
+            </td>
+        
+    </tr>
+    
+        <tr>
+        <td bgcolor="#f0f0f0" width="20%">
+            <b>Labels:</b>
+        </td>
+        <td id="labels-10063-value" class="value" bgcolor="#ffffff" valign="top" colspan="3" nowrap>
+                            None
+                    </td>
+    </tr>
+    
+    	<tr>
+        		<td bgcolor="#f0f0f0" width="20%"><b>Remaining Estimate:</b></td>
+        <td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Not Specified
+            		</td>
+    </tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Time Spent:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Not Specified
+            		</td>
+	</tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Original estimate:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Not Specified
+            		</td>
+    </tr>
+    
+    </table>
+
+
+
+    <br />
+
+    	<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+            
+
+        
+    
+
+
+    
+                        <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>Rank:</b></td>
+                <td id="customfield_10019-10063-value" class="value" bgcolor="#ffffff" width="80%">      0|i0006f:
+  </td>
+            </tr>
+            </table>
+
+
+<hr class='fullcontent'><br /><br style='page-break-before:always;'/><br />
+<table class="tableBorder" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" width="100%" colspan="2" valign="top">
+                            <b><a id="parent_issue_summary" href="https://rashanrahul2000-1788285295297.atlassian.net/browse/SSQA-2">Customer Shopping -</a></b>
+                <span style="font-size: 9px">(<a id="parent_issue_key" href="https://rashanrahul2000-1788285295297.atlassian.net/browse/SSQA-2">SSQA-2</a>)</span>
+                <h3 class="formtitle"><img src="https://rashanrahul2000-1788285295297.atlassian.net/images/icons/link_out_bot.gif" width="16" height="16" />
+                        [SSQA-4]&nbsp;<a href="https://rashanrahul2000-1788285295297.atlassian.net/browse/SSQA-4">View Products</a>
+            <span class="subText">
+               Created: 17/Sep/26                   &nbsp;Updated: 17/Sep/26
+
+                                                    &nbsp;Resolved: 17/Sep/26
+                            </span>
+            </h3>
+        </td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Status:</b></td>
+        <td width="80%">Done</td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Project:</b></td>
+        <td width="80%"><a href="https://rashanrahul2000-1788285295297.atlassian.net/secure/BrowseProject.jspa?id=10035">Sunil Store Grocery QA</a></td>
+    </tr>
+
+        <tr>
+            <td><b>Components:</b></td>
+            <td>
+                            None
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Affects versions:</b></td>
+            <td>
+                            None
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Fix versions:</b></td>
+            <td>
+                            None
+                </td>
+    </tr>
+    
+    
+            <td width="20%"><b>Parent:</b></td>
+        <td width="80%"><a href="https://rashanrahul2000-1788285295297.atlassian.net/browse/SSQA-2">Customer Shopping -</a></td>
+    </table>
+
+<br />
+<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" valign="top" width="20%">
+            <b>Type:</b>
+        </td>
+        <td bgcolor="#ffffff" valign="top"  width="30%" >
+            Task
+        </td>
+
+                    <td bgcolor="#f0f0f0">
+                <b>Priority:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap>
+                Medium
+            </td>
+            </tr>
+    <tr>
+                        <td bgcolor="#f0f0f0" valign="top" width="20%">
+                <b>Reporter:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top"  width="30%" >
+                                        
+                
+        
+            <a class="user-hover" rel="712020:21ef7c12-2367-4bf8-bda1-9c697939bb8e"
+                id="word_reporter_712020:21ef7c12-2367-4bf8-bda1-9c697939bb8e"
+                href="https://rashanrahul2000-1788285295297.atlassian.net/secure/ViewProfile.jspa?accountId=712020%3A21ef7c12-2367-4bf8-bda1-9c697939bb8e">
+                    rashan rahul
+                </a>
+
+                            </td>
+        
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Assignee:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap  width="30%" >
+                                    Unassigned
+                            </td>
+            </tr>
+    	<tr>
+		<td bgcolor="#f0f0f0" width="20%">
+			<b>Resolution:</b>
+		</td>
+		<td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+                            Done
+                    </td>
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Votes:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+                0
+            </td>
+        
+    </tr>
+    
+        <tr>
+        <td bgcolor="#f0f0f0" width="20%">
+            <b>Labels:</b>
+        </td>
+        <td id="labels-10064-value" class="value" bgcolor="#ffffff" valign="top" colspan="3" nowrap>
+                            None
+                    </td>
+    </tr>
+    
+    	<tr>
+        		<td bgcolor="#f0f0f0" width="20%"><b>Remaining Estimate:</b></td>
+        <td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Not Specified
+            		</td>
+    </tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Time Spent:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Not Specified
+            		</td>
+	</tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Original estimate:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Not Specified
+            		</td>
+    </tr>
+    
+    </table>
+
+
+
+    <br />
+
+    	<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+            
+
+        
+    
+
+
+    
+                        <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>Rank:</b></td>
+                <td id="customfield_10019-10064-value" class="value" bgcolor="#ffffff" width="80%">      0|i0006n:
+  </td>
+            </tr>
+            </table>
+
+
+<hr class='fullcontent'><br /><br style='page-break-before:always;'/><br />
+<table class="tableBorder" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" width="100%" colspan="2" valign="top">
+                            <b><a id="parent_issue_summary" href="https://rashanrahul2000-1788285295297.atlassian.net/browse/SSQA-2">Customer Shopping -</a></b>
+                <span style="font-size: 9px">(<a id="parent_issue_key" href="https://rashanrahul2000-1788285295297.atlassian.net/browse/SSQA-2">SSQA-2</a>)</span>
+                <h3 class="formtitle"><img src="https://rashanrahul2000-1788285295297.atlassian.net/images/icons/link_out_bot.gif" width="16" height="16" />
+                        [SSQA-5]&nbsp;<a href="https://rashanrahul2000-1788285295297.atlassian.net/browse/SSQA-5">Search Products</a>
+            <span class="subText">
+               Created: 17/Sep/26                   &nbsp;Updated: 18/Sep/26
+
+                                                    &nbsp;Resolved: 18/Sep/26
+                            </span>
+            </h3>
+        </td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Status:</b></td>
+        <td width="80%">Done</td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Project:</b></td>
+        <td width="80%"><a href="https://rashanrahul2000-1788285295297.atlassian.net/secure/BrowseProject.jspa?id=10035">Sunil Store Grocery QA</a></td>
+    </tr>
+
+        <tr>
+            <td><b>Components:</b></td>
+            <td>
+                            None
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Affects versions:</b></td>
+            <td>
+                            None
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Fix versions:</b></td>
+            <td>
+                            None
+                </td>
+    </tr>
+    
+    
+            <td width="20%"><b>Parent:</b></td>
+        <td width="80%"><a href="https://rashanrahul2000-1788285295297.atlassian.net/browse/SSQA-2">Customer Shopping -</a></td>
+    </table>
+
+<br />
+<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" valign="top" width="20%">
+            <b>Type:</b>
+        </td>
+        <td bgcolor="#ffffff" valign="top"  width="30%" >
+            Task
+        </td>
+
+                    <td bgcolor="#f0f0f0">
+                <b>Priority:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap>
+                Medium
+            </td>
+            </tr>
+    <tr>
+                        <td bgcolor="#f0f0f0" valign="top" width="20%">
+                <b>Reporter:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top"  width="30%" >
+                                        
+                
+        
+            <a class="user-hover" rel="712020:21ef7c12-2367-4bf8-bda1-9c697939bb8e"
+                id="word_reporter_712020:21ef7c12-2367-4bf8-bda1-9c697939bb8e"
+                href="https://rashanrahul2000-1788285295297.atlassian.net/secure/ViewProfile.jspa?accountId=712020%3A21ef7c12-2367-4bf8-bda1-9c697939bb8e">
+                    rashan rahul
+                </a>
+
+                            </td>
+        
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Assignee:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap  width="30%" >
+                                    Unassigned
+                            </td>
+            </tr>
+    	<tr>
+		<td bgcolor="#f0f0f0" width="20%">
+			<b>Resolution:</b>
+		</td>
+		<td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+                            Done
+                    </td>
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Votes:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+                0
+            </td>
+        
+    </tr>
+    
+        <tr>
+        <td bgcolor="#f0f0f0" width="20%">
+            <b>Labels:</b>
+        </td>
+        <td id="labels-10065-value" class="value" bgcolor="#ffffff" valign="top" colspan="3" nowrap>
+                            None
+                    </td>
+    </tr>
+    
+    	<tr>
+        		<td bgcolor="#f0f0f0" width="20%"><b>Remaining Estimate:</b></td>
+        <td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Not Specified
+            		</td>
+    </tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Time Spent:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Not Specified
+            		</td>
+	</tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Original estimate:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Not Specified
+            		</td>
+    </tr>
+    
+    </table>
+
+
+
+    <br />
+
+    	<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+            
+
+        
+    
+
+
+    
+                        <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>Rank:</b></td>
+                <td id="customfield_10019-10065-value" class="value" bgcolor="#ffffff" width="80%">      0|i0006v:
+  </td>
+            </tr>
+            </table>
+
+
+<hr class='fullcontent'><br /><br style='page-break-before:always;'/><br />
+<table class="tableBorder" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" width="100%" colspan="2" valign="top">
+                            <b><a id="parent_issue_summary" href="https://rashanrahul2000-1788285295297.atlassian.net/browse/SSQA-2">Customer Shopping -</a></b>
+                <span style="font-size: 9px">(<a id="parent_issue_key" href="https://rashanrahul2000-1788285295297.atlassian.net/browse/SSQA-2">SSQA-2</a>)</span>
+                <h3 class="formtitle"><img src="https://rashanrahul2000-1788285295297.atlassian.net/images/icons/link_out_bot.gif" width="16" height="16" />
+                        [SSQA-6]&nbsp;<a href="https://rashanrahul2000-1788285295297.atlassian.net/browse/SSQA-6">Browse Products By Category</a>
+            <span class="subText">
+               Created: 17/Sep/26                   &nbsp;Updated: 18/Sep/26
+
+                                                    &nbsp;Resolved: 18/Sep/26
+                            </span>
+            </h3>
+        </td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Status:</b></td>
+        <td width="80%">Done</td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Project:</b></td>
+        <td width="80%"><a href="https://rashanrahul2000-1788285295297.atlassian.net/secure/BrowseProject.jspa?id=10035">Sunil Store Grocery QA</a></td>
+    </tr>
+
+        <tr>
+            <td><b>Components:</b></td>
+            <td>
+                            None
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Affects versions:</b></td>
+            <td>
+                            None
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Fix versions:</b></td>
+            <td>
+                            None
+                </td>
+    </tr>
+    
+    
+            <td width="20%"><b>Parent:</b></td>
+        <td width="80%"><a href="https://rashanrahul2000-1788285295297.atlassian.net/browse/SSQA-2">Customer Shopping -</a></td>
+    </table>
+
+<br />
+<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" valign="top" width="20%">
+            <b>Type:</b>
+        </td>
+        <td bgcolor="#ffffff" valign="top"  width="30%" >
+            Task
+        </td>
+
+                    <td bgcolor="#f0f0f0">
+                <b>Priority:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap>
+                Medium
+            </td>
+            </tr>
+    <tr>
+                        <td bgcolor="#f0f0f0" valign="top" width="20%">
+                <b>Reporter:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top"  width="30%" >
+                                        
+                
+        
+            <a class="user-hover" rel="712020:21ef7c12-2367-4bf8-bda1-9c697939bb8e"
+                id="word_reporter_712020:21ef7c12-2367-4bf8-bda1-9c697939bb8e"
+                href="https://rashanrahul2000-1788285295297.atlassian.net/secure/ViewProfile.jspa?accountId=712020%3A21ef7c12-2367-4bf8-bda1-9c697939bb8e">
+                    rashan rahul
+                </a>
+
+                            </td>
+        
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Assignee:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap  width="30%" >
+                                    Unassigned
+                            </td>
+            </tr>
+    	<tr>
+		<td bgcolor="#f0f0f0" width="20%">
+			<b>Resolution:</b>
+		</td>
+		<td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+                            Done
+                    </td>
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Votes:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+                0
+            </td>
+        
+    </tr>
+    
+        <tr>
+        <td bgcolor="#f0f0f0" width="20%">
+            <b>Labels:</b>
+        </td>
+        <td id="labels-10066-value" class="value" bgcolor="#ffffff" valign="top" colspan="3" nowrap>
+                            None
+                    </td>
+    </tr>
+    
+    	<tr>
+        		<td bgcolor="#f0f0f0" width="20%"><b>Remaining Estimate:</b></td>
+        <td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Not Specified
+            		</td>
+    </tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Time Spent:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Not Specified
+            		</td>
+	</tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Original estimate:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Not Specified
+            		</td>
+    </tr>
+    
+    </table>
+
+
+
+    <br />
+
+    	<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+            
+
+        
+    
+
+
+    
+                        <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>Rank:</b></td>
+                <td id="customfield_10019-10066-value" class="value" bgcolor="#ffffff" width="80%">      0|i00073:
+  </td>
+            </tr>
+            </table>
+
+
+<hr class='fullcontent'><br /><br style='page-break-before:always;'/><br />
+<table class="tableBorder" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" width="100%" colspan="2" valign="top">
+                            <b><a id="parent_issue_summary" href="https://rashanrahul2000-1788285295297.atlassian.net/browse/SSQA-2">Customer Shopping -</a></b>
+                <span style="font-size: 9px">(<a id="parent_issue_key" href="https://rashanrahul2000-1788285295297.atlassian.net/browse/SSQA-2">SSQA-2</a>)</span>
+                <h3 class="formtitle"><img src="https://rashanrahul2000-1788285295297.atlassian.net/images/icons/link_out_bot.gif" width="16" height="16" />
+                        [SSQA-7]&nbsp;<a href="https://rashanrahul2000-1788285295297.atlassian.net/browse/SSQA-7">View Product Details</a>
+            <span class="subText">
+               Created: 17/Sep/26                   &nbsp;Updated: 18/Sep/26
+
+                                                    &nbsp;Resolved: 18/Sep/26
+                            </span>
+            </h3>
+        </td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Status:</b></td>
+        <td width="80%">Done</td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Project:</b></td>
+        <td width="80%"><a href="https://rashanrahul2000-1788285295297.atlassian.net/secure/BrowseProject.jspa?id=10035">Sunil Store Grocery QA</a></td>
+    </tr>
+
+        <tr>
+            <td><b>Components:</b></td>
+            <td>
+                            None
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Affects versions:</b></td>
+            <td>
+                            None
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Fix versions:</b></td>
+            <td>
+                            None
+                </td>
+    </tr>
+    
+    
+            <td width="20%"><b>Parent:</b></td>
+        <td width="80%"><a href="https://rashanrahul2000-1788285295297.atlassian.net/browse/SSQA-2">Customer Shopping -</a></td>
+    </table>
+
+<br />
+<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" valign="top" width="20%">
+            <b>Type:</b>
+        </td>
+        <td bgcolor="#ffffff" valign="top"  width="30%" >
+            Task
+        </td>
+
+                    <td bgcolor="#f0f0f0">
+                <b>Priority:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap>
+                Medium
+            </td>
+            </tr>
+    <tr>
+                        <td bgcolor="#f0f0f0" valign="top" width="20%">
+                <b>Reporter:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top"  width="30%" >
+                                        
+                
+        
+            <a class="user-hover" rel="712020:21ef7c12-2367-4bf8-bda1-9c697939bb8e"
+                id="word_reporter_712020:21ef7c12-2367-4bf8-bda1-9c697939bb8e"
+                href="https://rashanrahul2000-1788285295297.atlassian.net/secure/ViewProfile.jspa?accountId=712020%3A21ef7c12-2367-4bf8-bda1-9c697939bb8e">
+                    rashan rahul
+                </a>
+
+                            </td>
+        
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Assignee:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap  width="30%" >
+                                    Unassigned
+                            </td>
+            </tr>
+    	<tr>
+		<td bgcolor="#f0f0f0" width="20%">
+			<b>Resolution:</b>
+		</td>
+		<td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+                            Done
+                    </td>
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Votes:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+                0
+            </td>
+        
+    </tr>
+    
+        <tr>
+        <td bgcolor="#f0f0f0" width="20%">
+            <b>Labels:</b>
+        </td>
+        <td id="labels-10067-value" class="value" bgcolor="#ffffff" valign="top" colspan="3" nowrap>
+                            None
+                    </td>
+    </tr>
+    
+    	<tr>
+        		<td bgcolor="#f0f0f0" width="20%"><b>Remaining Estimate:</b></td>
+        <td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Not Specified
+            		</td>
+    </tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Time Spent:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Not Specified
+            		</td>
+	</tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Original estimate:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Not Specified
+            		</td>
+    </tr>
+    
+    </table>
+
+
+
+    <br />
+
+    	<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+            
+
+        
+    
+
+
+    
+                        <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>Rank:</b></td>
+                <td id="customfield_10019-10067-value" class="value" bgcolor="#ffffff" width="80%">      0|i0007b:
+  </td>
+            </tr>
+            </table>
+
+
+<hr class='fullcontent'><br /><br style='page-break-before:always;'/><br />Generated at Mon Sep 21 12:28:44 UTC 2026 by rashan rahul using Jira 1001.0.0-SNAPSHOT#100294-rev:44cdd07c042959317ed5591bf79dbcd9369f3610.
+
+</body>
+</html>
