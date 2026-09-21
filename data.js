@@ -177,7 +177,14 @@ const DB = {
       }));
 
       results.filter(Boolean).forEach(({ name, value }) => {
-        if (value !== undefined && value !== null) this.set(this.keyFor(name), value);
+        if (value === undefined || value === null) return;
+        const key = this.keyFor(name);
+        const current = this.get(key, null);
+        const isEmptyCollection = Array.isArray(value) && value.length === 0 && (current === null || (Array.isArray(current) && current.length === 0));
+        if (isEmptyCollection && (name === 'categories' || name === 'products')) {
+          return;
+        }
+        this.set(key, value);
       });
     } catch (error) {
       console.warn('Store hydration skipped:', error.message || error);

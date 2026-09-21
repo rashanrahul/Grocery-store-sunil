@@ -584,20 +584,23 @@ function init() {
   setInterval(renderStoreInfo, 60000);
 }
 
-DB.hydrateFromServer().finally(init);
+DB.hydrateFromServer().finally(() => init());
 
 // ── Secret admin access (5 rapid taps on logo) ──────────────────────────
 let tapCount = 0, tapTimer;
-document.querySelector('.logo').addEventListener('click', e => {
-  e.preventDefault();
-  tapCount++;
-  clearTimeout(tapTimer);
-  tapTimer = setTimeout(() => { tapCount = 0; }, 1500);
-  if (tapCount >= 5) {
-    tapCount = 0;
-    window.location.href = 'admin.html';
-  }
-});
+const storeLogo = document.querySelector('.logo');
+if (storeLogo) {
+  storeLogo.addEventListener('click', e => {
+    e.preventDefault();
+    tapCount++;
+    clearTimeout(tapTimer);
+    tapTimer = setTimeout(() => { tapCount = 0; }, 1500);
+    if (tapCount >= 5) {
+      tapCount = 0;
+      window.location.href = 'admin.html';
+    }
+  });
+}
 
 // ── Live sync from admin (cross-tab) ────────────────────────────────────────
 window.addEventListener('storage', e => {
